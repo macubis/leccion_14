@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Mi primer formulario</title>
+</head>
+<body>
+<center>
+<strong><h2>Formulario de Datos</h2></strong>
+	<form action = "">
+		<p>Nombre</p>
+		<p>
+			<input type="text" name="nombre" required>
+		</p>
+		<p>Apellido</p>
+		<p>
+		<input type = "text" name="apeliddo" required>
+		</p>
+		<p>Numero de Telefono</p>
+		<p>
+		<input type = "text" name="numero de telefono" required>
+		</p>
+		<p>Escoge tu carro para continuar</p>
+			<select>
+				<optgroup>
+					<option value ="escoge tu carro">Escoge tu carro</option>
+				</optgroup>
+	    			<option value="valor1">Volvo</option>
+	    			<option value="valor2">Saab</option>
+					<option value="valor3">Mercedes</option>
+					<option value="valor4">Audi</option>	    
+			</select>
+		<p>Email</p>
+		<p><input type = "email" name="email" required></p>
+		<p>
+		<label for ="pw">Crea tu contraseña</label></br>
+		<input type = "pasword" name="pw" pattern =".{6,}" title="6 o más caracteres" required></br>
+		</p>
+		<p><input type="submit" value="Enviar"></p>	
+	</form>
+</body>
+</html>
